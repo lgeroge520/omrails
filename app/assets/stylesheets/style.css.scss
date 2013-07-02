@@ -1,0 +1,33 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: pink;
+$btnPrimaryBackground: green;
+@import 'bootstrap';
+
+@import 'bootstrap-responsive';
+
+body {
+	padding-top: 60px;
+}
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $blue;
+	a {
+		color: $red;
+
+	}
+
+}
+
+.hero-unit {
+	background-color: pink;
+	color: $grayLight;
+	a {
+		color: white;
+	}
+}
